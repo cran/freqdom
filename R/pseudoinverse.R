@@ -9,7 +9,11 @@
 #' @param K number of directions to invert
 #' @param th fixed treshold for eigenvalues
 #' @return Pseudoinverse matrix
-#' @export 
+#' @references Hormann Siegfried, Kidzinski Lukasz and Kokoszka Piotr.
+#' \emph{Estimation in functional lagged regression.} 
+#' Journal of Time Series Analysis 36.4 (2015): 541-561.
+#' @noRd
+# @export
 pseudoinverse = function(M,K=NULL,th=NULL){
   if (!is.matrix(M) || dim(M)[1] != dim(M)[2])
     stop("M must be a square matrix")

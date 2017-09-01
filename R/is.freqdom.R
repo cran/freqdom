@@ -1,13 +1,15 @@
 inClass = function(X,cls){
-  !is.null(oldClass(X)) && oldClass(X) == cls
+  !is.null(oldClass(X)) && (cls %in% oldClass(X))
 }
 
-#' Checks if a given object is a frequency domain matrix.
-#'
-#' @title Check if a given object is a frequency domain matrix
-#' @param X an object
-#' @return boolean
-#' @export 
+#' Checks if an object belongs to the class \code{\link{freqdom}}.
+#
+#' @title Checks if an object belongs to the class freqdom
+#' @param X some object
+#' @return \code{TRUE} if \code{X} is of type \code{\link{freqdom}}, \code{FALSE} otherwise
+#' @seealso \code{\link{freqdom}}, \code{\link{timedom}}, \code{\link{is.timedom}}
+#' @export
+#' @keywords classes
 is.freqdom = function (X){
   inClass(X,'freqdom')
 }

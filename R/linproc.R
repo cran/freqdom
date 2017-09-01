@@ -8,7 +8,8 @@
 #' @param noise function taking dimension D and returning D-dimentional vector
 #' @return Multivariate linear process
 #' @importFrom stats rnorm
-#' @export
+#' @noRd
+# @export
 #' @seealso \code{\link{speclagreg}}
 #' @examples
 #' d = 2
@@ -16,8 +17,8 @@
 #' X = rar(n,d=d)
 #' 
 #' OP = array(0,c(d,d,2))
-#' OP[,,1] = 2 * diag(d:1)/d
-#' OP[,,2] = 1.5 * diag(d:1)/d
+#' OP[1,,] = 2 * diag(d:1)/d
+#' OP[2,,] = 1.5 * diag(d:1)/d
 #' A = timedom(OP, 0:1)
 #' 
 #' Y = linproc(X,A,noise=rnorm)
@@ -32,9 +33,8 @@ linproc = function(X, A, noise=NULL){
 		noise = function(n){ rep(0,n) }
   WN = c()
   for (i in 1:dim(X)[1])
-    WN = rbind(WN,noise(dim(A$operators)[2]))
+    WN = rbind(WN, noise(dim(A$operators)[1]))
   
   # concolution + noise
-  X = A %c% X
-  X + WN
+  X %c% A + WN
 }
