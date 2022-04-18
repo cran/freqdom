@@ -1,8 +1,8 @@
 Package: freqdom
 Type: Package
 Title: Frequency Domain Based Analysis: Dynamic PCA
-Version: 2.0.1
-Date: 2017-08-29
+Version: 2.0.2
+Date: 2022-04-17
 Author: Hormann S., Kidzinski L.
 Maintainer: Kidzinski L. <lukasz.kidzinski@stanford.edu>
 Description: Implementation of dynamic principal component
@@ -14,9 +14,10 @@ Description: Implementation of dynamic principal component
 License: GPL-3
 Depends: R (>= 2.15.0), mvtnorm, stats, graphics, base, matrixcalc,
         utils
-Suggests: fda, MASS, MARSS
-RoxygenNote: 6.0.1
+Suggests: fda, MASS, MARSS, testthat (>= 3.0.0)
+RoxygenNote: 7.1.2
+Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2017-08-30 04:15:51 UTC; lukasz
+Packaged: 2022-04-18 05:47:40 UTC; kidzik
 Repository: CRAN
-Date/Publication: 2017-09-01 17:09:43 UTC
+Date/Publication: 2022-04-18 14:24:35 UTC
