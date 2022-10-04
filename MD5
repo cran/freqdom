@@ -1,8 +1,8 @@
-265ce4200d4b18aa8475b33767edf3cc *DESCRIPTION
+ce64d6fd29816bae3bdd8226bdfe54a7 *DESCRIPTION
 6d921f7fc3cab3cbf512a1393b6bd668 *NAMESPACE
 d599b748fa4fc2203c37fd52bfb7994b *R/MSE.R
 ca12ca7be14f48ce291338d175fdfd72 *R/close.eigen.R
-e2a012a3de84975215fc994570cb5c63 *R/cov.structure.R
+a015110f9ad008a7c9bfdf899d5ea949 *R/cov.structure.R
 87dc1faeadd694b4f796cdd1888eecb8 *R/debug.R
 715f6646de01179507e51cda43d50c5e *R/dpca.KLexpansion.R
 c7f772c59649170bee1bd79d0f212462 *R/dpca.R
@@ -43,7 +43,7 @@ e6e543eba06c3b7c32f37c7920c0f3d6 *R/timedom.trunc.R
 4cb4014c601b764be7173a9140a55d61 *demo/00Index
 c2b084d3514810ca262da78d33000a83 *demo/dpca.population.R
 f5ad74ef583ad33910bf4e29907ab009 *demo/dpca.simulation.R
-3bf0b7a50331b829f471dd917c4ca7e6 *man/cov.structure.Rd
+c29069cb6813b05f7b3abae93fab8baf *man/cov.structure.Rd
 d51689aae41087a7a683c3039a6ade62 *man/dot-freqdom.Rd
 8364badbb2345c2369735fceb5941b33 *man/dot-timedom.Rd
 b17a92fd5d9cd98e7465715ca3340416 *man/dpca.KLexpansion.Rd
@@ -51,13 +51,13 @@ b17a92fd5d9cd98e7465715ca3340416 *man/dpca.KLexpansion.Rd
 d60b6dc73e686ec1cc29dbc7007292a0 *man/dpca.filters.Rd
 cc645e12fe37e6ec632f786367cd3e7b *man/dpca.scores.Rd
 4814fa6ceee165d0a1ba8543df5d1c5d *man/dpca.var.Rd
-b05e1085b9589042b58e44259b3efd24 *man/filter.process.Rd
+2fec74759a36332576dca32473fb8c12 *man/filter.process.Rd
 8f3a9d571be58193240cbd1f4d80eb04 *man/fourier.inverse.Rd
 19c2d7027b57c7b6e694138b36e81071 *man/fourier.transform.Rd
 322b14ca3f6b55c4d8d111d9f8aeff2b *man/freqdom-package.Rd
 30506b328db357852d52f0d05ffbde62 *man/freqdom.Rd
 bea89dad46a96e5ed27b95c7284e45bc *man/freqdom.eigen.Rd
-b8b66129198e470d52bb57b1776cba65 *man/freqdom.product.Rd
+0ebeae8f6f3683711cfed328e513ec54 *man/freqdom.product.Rd
 deed5e9f98deb690dbb5d448fe8709c9 *man/freqdom.transpose.Rd
 f02b255a40b9597d1a30634140538694 *man/grapes-times-grapes.Rd
 fb81109dcdfd37f245a568f6f1342390 *man/is.freqdom.Rd

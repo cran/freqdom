@@ -30,9 +30,9 @@ Function \code{freqdom.product} returns \eqn{H = \{ H_\theta : \theta \in S \}}.
 }
 \section{Functions}{
 \itemize{
-\item \code{freqdom.product}: Frequency-wise matrix product of two frequency-domain operators
-}}
+\item \code{freqdom.product()}: Frequency-wise matrix product of two frequency-domain operators
 
+}}
 \examples{
 n = 100
 X = rar(n)

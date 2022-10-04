@@ -28,11 +28,11 @@ When index \eqn{t-k} falls outside the domain \eqn{\{1,\ldots, T\}} we set \eqn{
 }
 \section{Functions}{
 \itemize{
-\item \code{filter.process}: Multivariate convolution (filter) in the time domain
+\item \code{filter.process()}: Multivariate convolution (filter) in the time domain
 
-\item \code{\%c\%}: Convenience operator for \code{filter.process} function
+\item \code{X \%c\% A}: Convenience operator for \code{filter.process} function
+
 }}
-
 \seealso{
 \code{\link{timedom}}
 }
