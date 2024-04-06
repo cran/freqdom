@@ -7,7 +7,7 @@
 freqdom.transpose(x)
 }
 \arguments{
-\item{S}{a frequency-domain filter of type \code{\link{freqdom}}, i.e. a set of linear operators \eqn{S_k \in \mathbf{R}^{p_1 \times p_2}}
+\item{x}{a frequency-domain filter of type \code{\link{freqdom}}, i.e. a set of linear operators \eqn{S_k \in \mathbf{R}^{p_1 \times p_2}}
 on some discreet grid defined of \eqn{[-\pi,\pi]}.}
 }
 \value{

@@ -1,3 +1,8 @@
+# @exportMethod plot
+# setGeneric("plot")
+# setMethod("plot", plot.fd.coef)
+# setMethod("plot", plot.freqdom)
+
 #' Plot chosen coefficients of frequenct domain operator. Draws all pairs \eqn{ \{ (i,j) | i \in x, j\in y }.
 #'
 #' @title Plot a frequency domain operator
@@ -8,7 +13,7 @@
 #' @param ... other parameters to \code{\link{plot}}
 #' @importFrom graphics lines par plot
 #' @noRd
-# @export
+#' @export
 plot.freqdom = function(x, xcoef=NULL, ycoef=NULL, type='cartesian', ...){
   SD = x
 
@@ -25,7 +30,7 @@ plot.freqdom = function(x, xcoef=NULL, ycoef=NULL, type='cartesian', ...){
     stop("x must be a numeric vector")
   if (!is.vector(ycoef) || !is.numeric(ycoef))
     stop("x must be a numeric vector")
-  
+
   ylim = min(Re(SD$operators),Im(SD$operators))
   ylim = c(ylim,max(Re(SD$operators),Im(SD$operators)))
   ylim = max(abs(ylim))
@@ -39,7 +44,11 @@ plot.freqdom = function(x, xcoef=NULL, ycoef=NULL, type='cartesian', ...){
   }
 }
 
-plot.fd.coef = function(SD, x, y, ylim=NULL, type='cartesian', ...){
+#' @export
+plot.fd.coef = function(x, x0, y0, ylim=NULL, type='cartesian', ...){
+  SD = x
+  x = x0
+  y = y0
   if (type=='cartesian'){
     f1 = Re
     f2 = Im

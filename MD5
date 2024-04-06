@@ -1,5 +1,5 @@
-ce64d6fd29816bae3bdd8226bdfe54a7 *DESCRIPTION
-6d921f7fc3cab3cbf512a1393b6bd668 *NAMESPACE
+9510c293446f307fe2fab407bb8ff159 *DESCRIPTION
+c09b9b8eb2b27e68d5ec2b974fa08a5a *NAMESPACE
 d599b748fa4fc2203c37fd52bfb7994b *R/MSE.R
 ca12ca7be14f48ce291338d175fdfd72 *R/close.eigen.R
 a015110f9ad008a7c9bfdf899d5ea949 *R/cov.structure.R
@@ -22,7 +22,7 @@ e7dd1f1cd62aa318123f7469c30fe09c *R/freqdom.lags.R
 854b4ae99e8c69ba5eb094c241d4f2f4 *R/freqdom.product.R
 85ec7b1063782cc211ab4de03f34fd50 *R/freqdom.ratio.R
 00cc71d03be3a7c0010ea2c46f27f40a *R/freqdom.trace.R
-ebbb07c2557118944600cb33491b4d87 *R/freqdom.transpose.R
+0bbdeddcb48bac5ee29f60d508d91319 *R/freqdom.transpose.R
 cc3ca1875c14c9d1eddfd6efcd3a8ffb *R/is.freqdom.R
 e60bf4c6b57789d2a70be6a798acfdcc *R/is.timedom.R
 e91dac6b64e54cbd9594ae5986efcb25 *R/kernels.R
@@ -30,7 +30,7 @@ e91dac6b64e54cbd9594ae5986efcb25 *R/kernels.R
 cf5a403320f204713ce210d47e5d492b *R/linproc.R
 77488cbacbc4bd86749b020afbf5cadd *R/norm.spec.R
 f5e8e325509ae80d45e473743db3d91d *R/operators.R
-575dafa6c44775cedbf3c86b4d68cf63 *R/plot.freqdom.R
+dc1cfdc2ddb9f13c75407de6568ef2b2 *R/plot.freqdom.R
 4379ae2d68ce6fdf3f50d0d843623270 *R/pseudoinverse.R
 65582f4050c41c6594f25fbcf752b4ea *R/rar.R
 1d5f097a7b955008b6d9d425365fcb68 *R/rev.R
@@ -58,7 +58,7 @@ cc645e12fe37e6ec632f786367cd3e7b *man/dpca.scores.Rd
 30506b328db357852d52f0d05ffbde62 *man/freqdom.Rd
 bea89dad46a96e5ed27b95c7284e45bc *man/freqdom.eigen.Rd
 0ebeae8f6f3683711cfed328e513ec54 *man/freqdom.product.Rd
-deed5e9f98deb690dbb5d448fe8709c9 *man/freqdom.transpose.Rd
+42c3498fe5cdfa1c0fa8655aad8fba40 *man/freqdom.transpose.Rd
 f02b255a40b9597d1a30634140538694 *man/grapes-times-grapes.Rd
 fb81109dcdfd37f245a568f6f1342390 *man/is.freqdom.Rd
 e1694383ec68a9163c89ebd644cd1360 *man/is.timedom.Rd
